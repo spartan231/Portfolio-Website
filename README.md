@@ -1,6 +1,5 @@
-# What is this project?
+# App Portfolio
 This is a web application to showcase Python projects.
-### Web developments
 
 
 
