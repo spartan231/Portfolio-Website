@@ -13,3 +13,10 @@ with col2:
     EMPTY
     """
     st.write(content)
+
+content2 = """
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+"""
+st.write(content2)
+
+
