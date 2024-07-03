@@ -1,3 +1,4 @@
+import os
 import smtplib
 import ssl
 
@@ -7,7 +8,7 @@ def send_email(message):
     port = 465
 
     username = "howardmilleriv23@gmail.com"
-    password = "qsdk ktke wlsp xbbn"
+    password = os.getenv("PASSWORD")
     receiver = "howardmilleriv23@gmail.com"
     context = ssl.create_default_context()
 
@@ -17,3 +18,5 @@ def send_email(message):
 
 
 send_email()
+
+"qsdk ktke wlsp xbbn"
